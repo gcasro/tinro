@@ -1,5 +1,5 @@
 {
-    "name": "gcas-tinro",
+    "name": "@gcas/tinro",
     "version": "0.7.1",
     "description": "tinro is a tiny declarative router for Svelte",
     "main": "dist/tinro.js",
@@ -15,7 +15,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://gitlab.com/gcas-ro/gcas-tinro.git"
+        "url": "git+https://github.com/gcasro/tinro.git"
     },
     "keywords": [
         "svelte-router",
@@ -25,9 +25,9 @@
     "author": "Alexey Schebelev",
     "license": "MIT",
     "bugs": {
-        "url": "https://gitlab.com/gcas-ro/gcas-tinro/-/issues"
+        "url": "https://github.com/gcasro/tinro/issues"
     },
-    "homepage": "https://gitlab.com/gcas-ro/gcas-tinro#readme",
+    "homepage": "https://github.com/gcasro/tinro#readme",
     "devDependencies": {
         "derver": "^0.5.3",
         "esbuild": "^0.14.18",
