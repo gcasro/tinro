@@ -1,6 +1,6 @@
 {
     "name": "@gcas/tinro",
-    "version": "0.7.1",
+    "version": "0.7.2",
     "description": "tinro is a tiny declarative router for Svelte",
     "main": "dist/tinro.js",
     "module": "dist/tinro.es.js",
@@ -9,7 +9,7 @@
     "scripts": {
         "build": "node esbuild",
         "dev": "node tests/esbuild.dev --dev",
-        "compare": "npm run test:build && node tests/esbuild.compare",
+        "compare": "npm run test && node tests/esbuild.compare",
         "pretest": "node tests/esbuild.dev",
         "test": "node tests"
     },

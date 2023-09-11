@@ -41,9 +41,9 @@ export function active(node){
     let current;
 
     const getAttributes = () => {
-        href = getAttr(node,'href').replace(/^\/#|[?#].*$|\/$/g,''),
-        exact = getAttr(node,'exact',true),
-        cl = getAttr(node,'active-class',true,'active');
+        href = node && getAttr(node,'href').replace(/^\/#|[?#].*$|\/$/g,''),
+        exact = node && getAttr(node,'exact',true),
+        cl = node && getAttr(node,'active-class',true,'active');
     }
 
     const matchLink = ()=>{
@@ -62,8 +62,8 @@ export function active(node){
 function aClickListener(go){
     const h = e => {
         const a = e.target.closest('a[href]');
-        const target = a  && getAttr(a,'target',false,'_self');
-        const ignore = a  && getAttr(a,'tinro-ignore');
+        const target = a && getAttr(a,'target',false,'_self');
+        const ignore = a && getAttr(a,'tinro-ignore');
         const key = e.ctrlKey || e.metaKey || e.altKey || e.shiftKey;
 
         if(target == '_self' && !ignore && !key && a){
