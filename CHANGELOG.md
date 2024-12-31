@@ -1,5 +1,14 @@
 # Tinro Changelog
 
+## 0.7.3 - 2024-12-31
+
+-   Added svelte export condition in package.json.
+
+## 0.7.2 - 2024-12-31
+
+-   Improved error handling.
+-   Moved repo to GCAS org.
+
 ## 0.7.1 - 2023-06-06
 
 -   Added PR #118 from @gurumaxi: https://github.com/AlexxNB/tinro/pull/118
