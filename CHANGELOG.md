@@ -1,5 +1,9 @@
 # Tinro Changelog
 
+## 0.7.4 - 2024-12-31
+
+-   Added pre-publish script to automatically build the package before publishing.
+
 ## 0.7.3 - 2024-12-31
 
 -   Added svelte export condition in package.json.
